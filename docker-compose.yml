@@ -1,0 +1,10 @@
+---
+
+version: '3'
+services:
+
+  skccentos:
+    build: skc-centos7-puppet-agent
+
+    image: skc-centos7-puppet-agent
+    
