@@ -12,3 +12,6 @@ RUN yum install -y puppet-agent
 
 
 RUN export PATH=$PATH:/opt/puppetlabs/bin >> /root/.bash_profile
+
+
+CMD /usr/sbin/init
